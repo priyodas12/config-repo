@@ -1,0 +1,26 @@
+#tomcat details.
+server:
+  port: 9293
+
+# enable ansi output
+spring:
+  output:
+    ansi:
+      enabled: always
+  profiles:
+      active: native
+#actuator end points enable
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include:
+#          - '*'
+#logging level
+#logging:
+#  level:
+#    root: DEBUG
+#    org.springframework.web: DEBUG
+
+
+
